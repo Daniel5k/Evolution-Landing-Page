@@ -7,12 +7,10 @@ const HeroSection = () => {
     <div className="px-4 mt-2 grid grid-flow-row grid-rows-2 gap-4 md:grid-flow-col md:grid-cols-4 md:grid-rows-1">
       {/* hero section write-up */}
 
-      <div className="grid col-span-1 items-center text-center">
+      <div className="grid col-span-1 items-center text-center md:text-left">
         <div className="flex flex-col gap-2">
           <h2 className="font-bold text-lg text-nowrap">Future of Mobility</h2>
-          <p className="text-[12px] text-left">
-            Discover Your Perfect Electric Vehicle
-          </p>
+          <p className="text-[12px]">Discover Your Perfect Electric Vehicle</p>
         </div>
         <p className="text-sm text-[#299D90]">Welcome, Ganisetti Teja</p>
         <div className="">

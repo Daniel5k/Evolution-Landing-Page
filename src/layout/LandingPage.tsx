@@ -1,6 +1,8 @@
+import CarModels from "../components/CarModels/CarModels";
 import FeaturesSection from "../components/FeaturesSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Navbar from "../components/Navbar";
+import OurServices from "../components/OurServices/OurServices";
 
 const LandingPage = () => {
   return (
@@ -8,6 +10,8 @@ const LandingPage = () => {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
+      <CarModels />
+      <OurServices />
     </div>
   );
 };
