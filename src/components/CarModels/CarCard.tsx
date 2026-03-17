@@ -18,7 +18,7 @@ const CarCard = () => {
               Price: <span className="text-[#299D90]">$79,900</span>
             </p>
           </div>
-          <button className="mt-4 p-1 font-[500] text-[#299D90] rounded-2xl border border-5 border-[#299D90] w-full">
+          <button className="mt-4 p-1 font-[500] text-[#299D90] rounded-2xl border border-5 border-[#299D90] w-full hover:bg-[#299D90] hover:text-white">
             Learn More
           </button>
         </div>
@@ -38,7 +38,7 @@ const CarCard = () => {
               Price: <span className="text-[#299D90]">$79,900</span>
             </p>
           </div>
-          <button className="mt-4 p-1 font-[500] text-[#299D90] rounded-2xl border border-5 border-[#299D90] w-full">
+          <button className="mt-4 p-1 font-[500] text-[#299D90] rounded-2xl border border-5 border-[#299D90] w-full hover:bg-[#299D90] hover:text-white">
             Learn More
           </button>
         </div>
@@ -58,7 +58,7 @@ const CarCard = () => {
               Price: <span className="text-[#299D90]">$79,900</span>
             </p>
           </div>
-          <button className="mt-4 p-1 font-[500] text-[#299D90] rounded-2xl border border-5 border-[#299D90] w-full">
+          <button className="mt-4 p-1 font-[500] text-[#299D90] rounded-2xl border border-5 border-[#299D90] w-full hover:bg-[#299D90] hover:text-white">
             Learn More
           </button>
         </div>

@@ -12,15 +12,25 @@ const Navbar = () => {
             EVolution
           </h1>
         </div>
-        <p>Home</p>
-        <p>Vehicles</p>
-        <p>Charging</p>
-        <p>Services</p>
-        <p>About</p>
+        <p className="px-2 rounded-md hover:bg-[#299D90] hover:text-white">
+          Home
+        </p>
+        <p className="px-2 rounded-md hover:bg-[#299D90] hover:text-white">
+          Vehicles
+        </p>
+        <p className="px-2 rounded-md hover:bg-[#299D90] hover:text-white">
+          Charging
+        </p>
+        <p className="px-2 rounded-md hover:bg-[#299D90] hover:text-white">
+          Services
+        </p>
+        <p className="px-2 rounded-md hover:bg-[#299D90] hover:text-white">
+          About
+        </p>
       </div>
       <div className="hidden md:flex justify-between gap-4 text-[12px] items-center">
         <input
-          className="rounded-xl border border-2-black px-2 py-1"
+          className="outline-none rounded-xl border border-2-black px-2 py-1"
           type="text"
           placeholder="Search vehicles.."
         />

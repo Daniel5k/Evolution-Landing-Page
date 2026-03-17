@@ -1,5 +1,6 @@
 import CarModels from "../components/CarModels/CarModels";
 import FeaturesSection from "../components/FeaturesSection";
+import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Navbar from "../components/Navbar";
 import OurServices from "../components/OurServices/OurServices";
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <FeaturesSection />
       <CarModels />
       <OurServices />
+      <Footer />
     </div>
   );
 };

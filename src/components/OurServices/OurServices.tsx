@@ -36,12 +36,12 @@ const OurServices = () => {
         <div className="bg-white p-4 rounded-md flex flex-col gap-6">
           <h3 className="font-bold">Book a Service</h3>
           <input
-            className="border border-6 border-[#299D90] rounded-md py-1 px-2 text-[12px]"
+            className="outline-none border border-6 border-[#299D90] rounded-md py-1 px-2 text-[12px]"
             type="text"
             placeholder="Your Name"
           />
           <input
-            className="border border-6 border-[#299D90] rounded-md py-1 px-2 text-[12px]"
+            className="outline-none border border-6 border-[#299D90] rounded-md py-1 px-2 text-[12px]"
             type="text"
             placeholder="Email Address"
           />
